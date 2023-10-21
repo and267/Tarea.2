@@ -8,7 +8,7 @@ package org.example;
 
 abstract class Dulce extends Producto {
 
-     /** Metodo constructor clase Bebida
+     /** Metodo constructor clase Dulce
      *@param serie primero int
      */
     
