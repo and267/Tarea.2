@@ -1,13 +1,13 @@
 package org.example;
 
-/**Excepcion que indica que el pago ingresado no es valido.
+/**Excepcion que indica que el pago ingresado no es suficiente.
  */
-public class PagoIncorrectoException extends Exception {
+public class PagoInsuficienteException extends Exception {
 
     /** Constructor, recibe un String para generar un mensaje de error.
      * @param errorMessage String
      */
-    public PagoIncorrectoException(String errorMessage) {
+    public PagoInsuficienteException(String errorMessage) {
 
         super(errorMessage);
     }
